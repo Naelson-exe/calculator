@@ -29,6 +29,8 @@ h1 {
     box-sizing: border-box;
     border-radius: 8px;
     font-size: 36px;
+    outline: none;
+    box-shadow: none;
 }
 
 button {
