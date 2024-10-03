@@ -22,7 +22,7 @@ display.value = "";
 
 // Delete the last character
 del.addEventListener("click", () => {
-    if (display.value = "NaN"){
+    if (display.value === "NaN"){
         display.value = "";
     }
     display.value = display.value.trimEnd().slice(0, -1).trimEnd();
